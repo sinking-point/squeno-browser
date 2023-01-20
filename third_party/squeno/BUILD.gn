@@ -1,0 +1,5 @@
+import("//build/config/android/rules.gni")
+
+android_aar_prebuilt("squeno_android_lib_java") {
+    aar_path = "squeno_android_lib/squeno_android_lib.aar"
+}

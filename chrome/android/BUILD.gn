@@ -710,6 +710,9 @@ if (current_toolchain == default_toolchain) {
       "//url:gurl_java",
       "//url:origin_java",
       "//url/mojom:url_mojom_gurl_java",
+
+      "//third_party/squeno:squeno_android_lib_java",
+
     ]
 
     deps += feed_deps
